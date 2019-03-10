@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.11.0",
+    "posthtml-include": "^1.2.0",
+    "sass": "^1.17.2"
+  },
+  "name": "swim-times",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "chota": "^0.5.2",
+    "chroma-js": "^2.0.3",
+    "jquery": "^3.3.1",
+    "moment": "^2.24.0",
+    "template.js": "^0.1.0",
+    "typeface-quicksand": "0.0.71"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "Malcolm Meyer",
+  "license": "ISC",
+  "description": ""
+}
