@@ -65,6 +65,15 @@ function initChart(id) {
     var entry = data.feed.entry;
     console.log(data);
     
+    var free200 = chartData(entry, "gsx$free200");
+    createChart("200 Free", "200 Free", free200);
+    
+    var back50 = chartData(entry, "gsx$back50");
+    createChart("50 Backstroke", "50 BackStroke", back50);
+
+    var fly50 = chartData(entry, "gsx$fly50");
+    createChart("50 Fly", "50 Fly", fly50);
+    
     var im100Data = chartData(entry, "gsx$im100");
     // createChart("100 Individual Medley", "100 IM", im100Data);
     
