@@ -12,7 +12,7 @@
     "chart.js": "^2.7.3",
     "chota": "^0.5.2",
     "chroma-js": "^2.0.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "moment": "^2.24.0",
     "parcel-bundler": "^1.12.0",
     "template.js": "^0.1.0",
