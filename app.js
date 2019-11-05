@@ -72,7 +72,7 @@ function initChart(id) {
     
     /*100*/
     
-    var im100 - chartData(entry, "gsx$im100");
+    var im100 = chartData(entry, "gsx$im100");
     createChart("100 IM", "100 IM", im100);
     
     var free100Data = chartData(entry, "gsx$free100");
