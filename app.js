@@ -64,36 +64,53 @@ function initChart(id) {
   $.getJSON(url, function (data) {
     var entry = data.feed.entry;
     console.log(data);
+
+    /*200*/
     
     var free200 = chartData(entry, "gsx$free200");
     createChart("200 Free", "200 Free", free200);
     
+    /*100*/
+    
+    var im100 - chartData(entry, "gsx$im100");
+    createChart("100 IM", "100 IM", im100);
+    
+    var free100Data = chartData(entry, "gsx$free100");
+    createChart("100 Free", "100 Free", free100Data);
+    
+    var back100 = chartData(entry, "gsx$back100");
+    createChart("100 Backstroke", "100 Backstroke", back100);
+    
+    var breast100 = chartData(entry, "gsx$breast100");
+    createChart("100 Breaststroke", "100 Breaststroke", breast100);
+    
+    /*50*/
+    
+    var free50Data = chartData(entry, "gsx$free50");
+    createChart("50 Free", "50 Free", free50Data);
+    
     var back50 = chartData(entry, "gsx$back50");
     createChart("50 Backstroke", "50 BackStroke", back50);
+    
+    var breast50 = chartData(entry, "gsx$breast50");
+    createChart("50 Breast", "50 Breast", breast50);
 
     var fly50 = chartData(entry, "gsx$fly50");
     createChart("50 Fly", "50 Fly", fly50);
     
-    var im100Data = chartData(entry, "gsx$im100");
-    // createChart("100 Individual Medley", "100 IM", im100Data);
+    /*25*/
     
-    var free100Data = chartData(entry, "gsx$free100");
-    createChart("100 Free", "100 Free", free100Data);
-
-    var free50Data = chartData(entry, "gsx$free50");
-    createChart("50 Free", "50 Free", free50Data);
-
     var free25Data = chartData(entry, "gsx$free25");
     createChart("25 Free", "25 Free", free25Data);
     
-    var fly25Data = chartData(entry, "gsx$fly25");
-    createChart("25 Fly", "25 Fly", fly25Data);
+    var back25Data = chartData(entry, "gsx$back25");
+    createChart("25 Backstroke", "25 BackStroke", back25Data);
     
     var breast25Data = chartData(entry, "gsx$breast25");
     createChart("25 Breaststroke", "25 BreastStroke", breast25Data);
-  
-    var back25Data = chartData(entry, "gsx$back25");
-    createChart("25 Backstroke", "25 BackStroke", back25Data);
+    
+    var fly25Data = chartData(entry, "gsx$fly25");
+    createChart("25 Fly", "25 Fly", fly25Data);  
   
   })
   
