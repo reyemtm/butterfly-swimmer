@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "chota": "^0.5.2",
     "chroma-js": "^2.0.3",
     "jquery": "^3.3.1",
